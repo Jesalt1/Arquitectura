@@ -1,0 +1,10 @@
+<mat-toolbar color="primary">
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item routerLink="/page1">Página 1</button>
+      <button mat-menu-item routerLink="/page2">Página 2</button>
+      <button mat-menu-item routerLink="/page3">Página 3</button>
+      <button mat-menu-item routerLink="/page4">Página 4</button>
+      <button mat-menu-item routerLink="/page5">Página 5</button>
+    </mat-menu>
+    <button mat-button [matMenuTriggerFor]="menu">Menú</button>
+  </mat-toolbar>
